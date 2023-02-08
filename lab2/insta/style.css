@@ -213,6 +213,7 @@ p {
 }
 
 .footer {
+    margin-left: 200px;
     text-align: center;
     justify-content: space-around;
 }
@@ -237,6 +238,7 @@ p {
 .lang {
     display: flex;
     /*text-align: center;*/
+    margin-left: 220px;
 }
 
 .lang-child {

@@ -14,7 +14,7 @@ p, h1, h2{
     height: 100%;
     max-width: 1600px;
     position: relative;
-    margin: 0 auto;
+    /*margin:  au;*/
     box-sizing: inherit;
     color: #262626;
     text-align: center;
