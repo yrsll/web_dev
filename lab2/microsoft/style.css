@@ -120,4 +120,77 @@ p, h1, h2{
     text-align: unset;
     padding-bottom: 30px;
 }
-
+.under-row{
+    display: flex;
+    margin-top: 80px;
+    margin-left: 120px;
+}
+.col-1{
+    display: inline;
+}
+.col-1-photo{
+    /*background-image: url("https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Content-Card-M365-Icon-Bounce-Word-Merch?wid=380&hei=213&fit=crop");*/
+    width: 380px;
+    height: 210px;
+}
+.micro-365{
+    margin: 0 0 12px;
+}
+.micro-365 h2{
+    font-size: 1.5rem;
+    margin-bottom: .75rem;
+    font-weight: 600;
+}
+.col-1-text{
+    width: 280px;
+    padding: 0;
+    /*margin: -10px ;*/
+    margin-left: -10px;
+    text-align: left;
+}
+.col-1-text a{
+    color: #0067b8;
+    margin-left: 5px;
+}
+.col-1-text p{
+    font-size: 16px;
+    /*margin-left: 10px;*/
+}
+.col-2{
+    margin-left: 30px;
+    display: inline;
+}
+.col-2-photo{
+    width: 380px;
+    height: 210px;
+}
+.col-2-photo img{
+    width: 380px;
+    height: 213px;
+}
+.microsoft-edge h2{
+    font-size: 1.5rem;
+    margin-bottom: .75rem;
+    font-weight: 600;
+}
+.microsoft-edge{
+    margin: 0 0 12px;
+}
+.col-2-text{
+    width: 280px;
+    padding: 0;
+    /*margin: -10px ;*/
+    margin-left: -10px;
+    text-align: left;
+}
+.col-2-text a{
+    color: #0067b8;
+    margin-left: 5px;
+}
+.col-2-text p{
+    font-size: 16px;
+    /*margin-left: 10px;*/
+}
+.under-row{
+    margin-left: 150px;
+}
