@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    text-decoration: none;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    /*-ms-box-sizing: border-box;*/
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial;
+    font-size: 14px;
+    color: #1c1e21;
+    font-weight: normal;
+    background: #f0f2f5;
+}
+
+.all {
+    padding: 120px;
+}
+
+.container {
+    padding: 120px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.row {
+    justify-content: space-between;
+}
+
+.left-side {
+    max-width: 500px;
+    margin: auto;
+}
+
+.left-side h1 {
+    font-size: 50px;
+    color: #1877f2;
+    margin-bottom: 20px;
+    font-weight: 900;
+}
+
+.left-side h2 {
+    font-size: 28px;
+    line-height: 32px;
+    font-weight: 500;
+    margin-bottom: 40px;
+}
+
+.right-side {
+    max-width: 450px;
+    margin: auto;
+    text-align: center;
+}
+
+.right-side form {
+    width: 400px;
+    height: 350px;
+    background: #fff;
+    border-radius: 5px;
+    padding: 15px;
+    -webkit-box-shadow: -1px -1px 8px -1px rgba(0, 0, 0, 0.52);
+    -moz-box-shadow: -1px -1px 8px -1px rgba(0, 0, 0, 0.52);
+    box-shadow: -1px -1px 8px -1px rgba(0, 0, 0, 0.52);
+    margin-bottom: 30px;
+}
+
+.right-side form input {
+    width: 100%;
+    height: 50px;
+    font-size: 17px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 0 15px;
+    margin-bottom: 15px;
+}
+
+.right-side form input:hover {
+    border: 2px solid #1c1e21;
+    background: #f0f2f5;
+}
+
+.btn {
+    font-size: 20px;
+    background: #1877f2;
+    height: 50px;
+    color: #fff;
+    line-height: 50px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+}
+
+.login a {
+    display: block;
+}
+
+.create-new-acc a {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 0 17px;
+    background: #4cd137;
+    transition: .3s;
+}
+
+.create-new-acc a:hover {
+    background: #44bd32;
+}
+
+.forgot-pass {
+    font-size: 14px;
+    line-height: 19px;
+    color: #1877f2;
+}
+
+.right-side p a:hover {
+    text-decoration: underline;
+}
+
+.right-side p a {
+    color: #1c1e21;
+    font-weight: 600;
+}
+
+.under {
+    background: #fff;
+}
