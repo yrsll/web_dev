@@ -36,12 +36,9 @@ body {
 .left-side {
     max-width: 500px;
     padding-left: 30px;
-    margin:0 auto;
+    /*margin:0 auto;*/
     padding-top: 80px;
-    /*background: #1e4880;*/
-    /*text-align: justify-all;*/
-    /*text-rendering: optimizelegibility;*/
-
+    margin-left: 450px;
 }
 
 
@@ -62,8 +59,9 @@ body {
 
 .right-side {
     max-width: 400px;
-    margin:auto;
+    /*margin:auto;*/
     text-align: center;
+    margin-right: 400px;
 }
 
 .right-side form {
@@ -139,6 +137,8 @@ footer{
 
 .under{
     padding-top: 30px;
+    /*max-heightpx;*/
+    height: 230px;
 }
 .under ul li{
     display: inline;
@@ -167,9 +167,21 @@ footer{
     width: 980px;
     height: 8px;
 }
-
 .some{
-    margin: auto;
+    width: 1000px;
+    height: 100px;
 }
+.some ul li{
+    /*padding: 50px;*/
+    padding-top: 20px;
+    /*padding-bottom: 200px;*/
+    /*margin-top: 200px;*/
+    /*white-space: normal;*/
+}
+.some ul li a{
+    color: #8a8d91;
+}
+
+
 
 
