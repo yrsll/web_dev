@@ -1,0 +1,37 @@
+.product-main{
+    width: 400px;
+    padding-bottom: 1rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    border-radius: 0.25rem;
+    /*display: flex;*/
+    align-items: center;
+    border: 1px solid #797a7e;
+    /*flex-direction: column;*/
+    margin-bottom: 0.5rem;
+    text-align: center;
+    margin-top: 10px;
+}
+img{
+    width: 16.666667%;
+    width: 70px;
+    margin-bottom: 0.5rem;
+}
+/*like buttom*/
+.like-toggle{
+    outline:none;
+    box-shadow:none;
+    border: none;
+    width: 40px;
+    height: 30px;
+    font-size: 1.3em;
+    border-radius: 100px;
+}
+
+.like-active.basic{
+    background: #7CC576;
+    color: white;
+}
+
+/**/
+
